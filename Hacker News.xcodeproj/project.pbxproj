@@ -11,6 +11,8 @@
 		AAFAB9D529A645480017868F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFAB9D429A645480017868F /* ContentView.swift */; };
 		AAFAB9D729A6454A0017868F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFAB9D629A6454A0017868F /* Assets.xcassets */; };
 		AAFAB9DA29A6454A0017868F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFAB9D929A6454A0017868F /* Preview Assets.xcassets */; };
+		AAFAB9E229A6F7620017868F /* Network Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFAB9E129A6F7620017868F /* Network Manager.swift */; };
+		AAFAB9E429A6F9950017868F /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFAB9E329A6F9950017868F /* PostData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		AAFAB9D429A645480017868F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AAFAB9D629A6454A0017868F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAFAB9D929A6454A0017868F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAFAB9E129A6F7620017868F /* Network Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network Manager.swift"; sourceTree = "<group>"; };
+		AAFAB9E329A6F9950017868F /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 			children = (
 				AAFAB9D229A645480017868F /* Hacker_NewsApp.swift */,
 				AAFAB9D429A645480017868F /* ContentView.swift */,
+				AAFAB9E029A6F7380017868F /* Models */,
 				AAFAB9D629A6454A0017868F /* Assets.xcassets */,
 				AAFAB9D829A6454A0017868F /* Preview Content */,
 			);
@@ -65,6 +70,15 @@
 				AAFAB9D929A6454A0017868F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AAFAB9E029A6F7380017868F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AAFAB9E129A6F7620017868F /* Network Manager.swift */,
+				AAFAB9E329A6F9950017868F /* PostData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAFAB9D529A645480017868F /* ContentView.swift in Sources */,
+				AAFAB9E429A6F9950017868F /* PostData.swift in Sources */,
 				AAFAB9D329A645480017868F /* Hacker_NewsApp.swift in Sources */,
+				AAFAB9E229A6F7620017868F /* Network Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
