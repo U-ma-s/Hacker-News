@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AA9CEEDD29A71FAC00727C63 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9CEEDC29A71FAC00727C63 /* DetailView.swift */; };
+		AA9CEEDF29A75A9500727C63 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9CEEDE29A75A9500727C63 /* WebView.swift */; };
 		AAFAB9D329A645480017868F /* Hacker_NewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFAB9D229A645480017868F /* Hacker_NewsApp.swift */; };
 		AAFAB9D529A645480017868F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFAB9D429A645480017868F /* ContentView.swift */; };
 		AAFAB9D729A6454A0017868F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFAB9D629A6454A0017868F /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		AA9CEEDC29A71FAC00727C63 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		AA9CEEDE29A75A9500727C63 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		AAFAB9CF29A645480017868F /* Hacker News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hacker News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAFAB9D229A645480017868F /* Hacker_NewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hacker_NewsApp.swift; sourceTree = "<group>"; };
 		AAFAB9D429A645480017868F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,6 +45,7 @@
 			children = (
 				AAFAB9D429A645480017868F /* ContentView.swift */,
 				AA9CEEDC29A71FAC00727C63 /* DetailView.swift */,
+				AA9CEEDE29A75A9500727C63 /* WebView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				AAFAB9D529A645480017868F /* ContentView.swift in Sources */,
 				AAFAB9E429A6F9950017868F /* PostData.swift in Sources */,
 				AAFAB9D329A645480017868F /* Hacker_NewsApp.swift in Sources */,
+				AA9CEEDF29A75A9500727C63 /* WebView.swift in Sources */,
 				AA9CEEDD29A71FAC00727C63 /* DetailView.swift in Sources */,
 				AAFAB9E229A6F7620017868F /* Network Manager.swift in Sources */,
 			);
