@@ -10,11 +10,12 @@ struct ContentView: View {
             //List(posts, rowContent: {post in Text(post.title)})
             //List(posts){Text($0.title)}
             List(networkManager.posts) {post in
-                HStack {
-                    Text(String(post.points))
-                    Text(post.title)
+                NavigationLink(destination: DetailView(url: post.url)) {
+                    HStack {//Listの各セルのLabel
+                        Text(String(post.points))
+                        Text(post.title)
+                    }
                 }
-                
             }
             
             .navigationTitle("Hacker News")
